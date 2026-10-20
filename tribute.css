@@ -213,7 +213,7 @@ h1, h2, h3, blockquote {
     color: #38bdf8;
     text-decoration: none;
     font-weight: 600;
-    box-sizing: border;
+    box-sizing: border-box;
     
 }
 
