@@ -1,22 +1,17 @@
-/* إعدادات العناصر والخطوط */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-    /* الخط بدون زوائد (Sans-serif) للنصوص العادية */
     font-family: 'Inter', 'Reboto', sans-serif;
     line-height: 1.7;
     color: #cbd5e1;
     background-color: #0f172a;
 }
-/* النمط الأول للخط: خط ذو زوائد (Serif) للعناوين والاقتباسات */
 h1, h2, h3, blockquote {
     font-family: 'Poppins', sans-serif;
 }
-/* استخدام لونين مختلفين للخلفية في الأقسام */
-/* اللون الأساسي الداكن للهيدر */
 .header-section {
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
     color: #ffffff;
@@ -52,8 +47,6 @@ h1, h2, h3, blockquote {
     margin: 40px auto;
     padding: 0 20px;
 }
-
-/* قسم الصورة */
 .image-section {
     background-color: #0f172a;
     padding: 30px 20px;
@@ -89,7 +82,6 @@ h1, h2, h3, blockquote {
     font-weight: bold;
     display: inline-block;
 }
-/* استخدام اللون الثاني الخفيف لأقسام المحتوى */
 .section {
     background-color: #1e293b;
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -119,8 +111,6 @@ h1, h2, h3, blockquote {
 .bio-content p:last-child {
     margin-bottom: 0;
 }
-
-/* تنسيق فقرة الاقتباس البارزة */
 .quote-section {
     margin: 45px 0;
 }
@@ -146,8 +136,6 @@ h1, h2, h3, blockquote {
     font-weight: 600;
     color: #0f172a;
 }
-
-/* بطاقات الإنجازات (الجدول الزمني) */
 .timeline-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -202,8 +190,6 @@ h1, h2, h3, blockquote {
     border-top: 1px solid rgba(56, 189, 248, 0.3);
     box-shadow: 0 -5px 15px rgba(56, 189, 248, 0.2);
 }
-
-/* تصميم متجاوب للشاشات المختلفة */
 @media (max-width: 600px) {
     .header-container {
         flex-direction: column;
@@ -222,3 +208,33 @@ h1, h2, h3, blockquote {
         font-size: 1.1rem;
     }
 }
+.back-link {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 30px;
+    background-color:#0f172a;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    box-sizing: border;
+    
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+.back-link::before {
+  content: "← "; 
+  margin-right: 6px; 
+  display: inline-block;
+  transition: transform 0.2s ease; 
+}
+
+
+.back-link:hover::before {
+  transform: translateX(-4px); 
+}
+
+
+
+
