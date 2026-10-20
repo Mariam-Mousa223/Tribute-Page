@@ -203,17 +203,21 @@ h1, h2, h3, blockquote {
     
     .quote-card {
         padding: 20px;
+    }   
+    .quote-card p {
+        font-size: 1.1rem;
     }
+}
 
-    .back-link {
-    display: inline-block !important; 
-    width: 100% !important;
-    padding: 15px 30px !important;
-    background-color:#0f172a !important;
-    color: #38bdf8 !important;
-    text-decoration: none !important;
-    font-weight: 600 !important;
-    box-sizing: border-box !important;
+.back-link {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 30px;
+    background-color:#0f172a;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    box-sizing: border;
     
 }
 
@@ -233,8 +237,5 @@ h1, h2, h3, blockquote {
 }
 
 
-    
-    .quote-card p {
-        font-size: 1.1rem;
-    }
-}
+
+
