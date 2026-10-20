@@ -191,9 +191,21 @@ h1, h2, h3, blockquote {
     box-shadow: 0 -5px 15px rgba(56, 189, 248, 0.2);
 }
 
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section {
+        padding: 22px;
+    }
+    
+    .quote-card {
+        padding: 20px;
+    }
 
-
-.back-link {
+    .back-link {
     display: inline-block;
     width: 100%;
     padding: 15px 30px;
@@ -221,30 +233,6 @@ h1, h2, h3, blockquote {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 600px) {
-    .header-container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .section {
-        padding: 22px;
-    }
-    
-    .quote-card {
-        padding: 20px;
-    }
     
     .quote-card p {
         font-size: 1.1rem;
