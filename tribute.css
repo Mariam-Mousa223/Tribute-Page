@@ -208,33 +208,3 @@ h1, h2, h3, blockquote {
         font-size: 1.1rem;
     }
 }
-.back-link {
-    display: inline-block;
-    width: 100%;
-    padding: 15px 30px;
-    background-color:#0f172a;
-    color: #38bdf8;
-    text-decoration: none;
-    font-weight: 600;
-    box-sizing: border;
-    
-}
-
-.back-link:hover {
-    text-decoration: underline;
-}
-.back-link::before {
-  content: "← "; 
-  margin-right: 6px; 
-  display: inline-block;
-  transition: transform 0.2s ease; 
-}
-
-
-.back-link:hover::before {
-  transform: translateX(-4px); 
-}
-
-
-
-
